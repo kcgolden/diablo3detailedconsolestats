@@ -1,0 +1,113 @@
+{
+"id" : "Unique_Belt_104_x1",
+"name" : "Cord of the Sherma",
+"icon" : "unique_belt_104_x1_demonhunter_male",
+"displayColor" : "orange",
+"tooltipParams" : "item/ClYIgqbTvwwSBwgEFdlH4msdUqm_ZR07J28kHXGLd_AdQ05EUR2bhvbiMIsCOOIBQABQElgEYK4CgAFGpQFSqb9lrQHasvGItQHAp0LUuAG0742YD8ABARiyn5K-DVAEWAA",
+"requiredLevel" : 70,
+"itemLevel" : 34,
+"bonusAffixes" : 0,
+"bonusAffixesMax" : 0,
+"accountBound" : true,
+"flavorText" : "\"During battle, confusion quickly gives way to panic, and a frightened enemy is the easiest to defeat.\" —Rakkis's Strategies of War",
+"typeName" : "Legendary Belt",
+"type" : {
+"twoHanded" : false,
+"id" : "GenericBelt"
+},
+"armor" : {
+"min" : 502.0,
+"max" : 502.0
+},
+"attributes" : {
+"primary" : [ {
+"text" : "+433 Intelligence",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+435 Vitality",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "+93 Resistance to All Elements",
+"affixType" : "default",
+"color" : "blue"
+}, {
+"text" : "Increases Electrocute Damage by 12% (Wizard Only)",
+"affixType" : "enchant",
+"color" : "blue"
+} ],
+"secondary" : [ {
+"text" : "Increases Gold and Health Pickup by 2 Yards.",
+"affixType" : "utility",
+"color" : "blue"
+} ],
+"passive" : [ {
+"text" : "Chance on hit to create a chaos field that Blinds and Slows enemies inside for 4 seconds.",
+"affixType" : "default",
+"color" : "orange"
+} ]
+},
+"attributesRaw" : {
+"Season" : {
+"min" : 0.0,
+"max" : 0.0
+},
+"Resistance_All" : {
+"min" : 93.0,
+"max" : 93.0
+},
+"Item_Power_Passive#ItemPassive_Unique_Ring_560_x1" : {
+"min" : 4.0,
+"max" : 4.0
+},
+"Durability_Cur" : {
+"min" : 226.0,
+"max" : 226.0
+},
+"Armor_Item" : {
+"min" : 502.0,
+"max" : 502.0
+},
+"Power_Damage_Percent_Bonus#Wizard_Electrocute" : {
+"min" : 0.12,
+"max" : 0.12
+},
+"Intelligence_Item" : {
+"min" : 433.0,
+"max" : 433.0
+},
+"Gold_PickUp_Radius" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max_Before_Reforge" : {
+"min" : 302.0,
+"max" : 302.0
+},
+"Item_Binding_Level_Override" : {
+"min" : 2.0,
+"max" : 2.0
+},
+"Durability_Max" : {
+"min" : 302.0,
+"max" : 302.0
+},
+"Item_Legendary_Item_Base_Item" : {
+"min" : -7.33829184E8,
+"max" : -7.33829184E8
+},
+"Vitality_Item" : {
+"min" : 435.0,
+"max" : 435.0
+},
+"Item_LegendaryItem_Level_Override" : {
+"min" : 70.0,
+"max" : 70.0
+}
+},
+"randomAffixes" : [ ],
+"gems" : [ ],
+"socketEffects" : [ ],
+"craftedBy" : [ ]
+}
