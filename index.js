@@ -90,6 +90,9 @@ async.series({
         }
       });
     }
+    function round(num) {
+      return Math.round(num * 100) / 100;
+    }
     characters.forEach(function(character){
       stats = {};
       items = character.items;
@@ -101,7 +104,13 @@ async.series({
         });
       });
       console.log('=====' + character.name + '=====');
-      console.log(stats);
+      Object.keys(stats).forEach(function(key){
+        if(stats[key].min === stats[key].max) {
+          console.log(key + ': ' + round(stats[key].max));
+        } else {
+          console.log(key + ': ' + round(stats[key].min) + ' to ' + round(stats[key].max));
+        }
+      });
     });
     callback();
   }
