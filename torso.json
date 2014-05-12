@@ -1,0 +1,109 @@
+{
+  id: 'Unique_Chest_002_x1',
+  name: 'Tyrael\'s Might',
+  icon: 'unique_chest_002_x1_demonhunter_male',
+  displayColor: 'orange',
+  tooltipParams: 'item/CrABCNfwhpEGEgcIBBVGSGpOHevi5AUdm4b24h07J28kHX1MvAsdP_IJ2DCLAjinA0AAUBJYBGCnA2orCgwIABDMxd-wgICAwB0SGwinxavjDRIHCAQV1V22ejCLAjgAQAFYBJABAGorCgwIABDOxd-wgICAwB0SGwiFl7HyCBIHCAQV1V22ejCLAjgAQAFYBJABAIABRqUBOydvJK0Bj5DKULUBMSIZYLgBwr3Y9wjAAQEYjKHS5glQBFgA',
+  requiredLevel: 70,
+  itemLevel: 60,
+  bonusAffixes: 0,
+  bonusAffixesMax: 0,
+  accountBound: true,
+  flavorText: '"And lo, the Angel of Justice did cast his judgment in favor of the nephalem." —The Books of Jarl, Volume III',
+  typeName: 'Legendary Chest Armor',
+  type: {
+    twoHanded: false,
+    id: 'ChestArmor'
+  },
+  armor: {
+    min: 699,
+    max: 699
+  },
+  attributes: {
+    primary: [
+      [Object],
+      [Object],
+      [Object]
+    ],
+    secondary: [
+      [Object],
+      [Object],
+      [Object]
+    ],
+    passive: []
+  },
+  attributesRaw: {
+    Item_Indestructible: {
+      min: 1,
+      max: 1
+    },
+    Durability_Max: {
+      min: 423,
+      max: 423
+    },
+    Armor_Item: {
+      min: 699,
+      max: 699
+    },
+    Item_Binding_Level_Override: {
+      min: 2,
+      max: 2
+    },
+    Intelligence_Item: {
+      min: 432,
+      max: 432
+    },
+    Gold_Find: {
+      min: 0.35,
+      max: 0.35
+    },
+    'Power_Damage_Percent_Bonus#Wizard_Blizzard': {
+      min: 0.1,
+      max: 0.1
+    },
+    Durability_Max_Before_Reforge: {
+      min: 423,
+      max: 423
+    },
+    'Damage_Percent_Bonus_Vs_Monster_Type#Demon': {
+      min: 0.09999999999999998,
+      max: 0.09999999999999998
+    },
+    Movement_Scalar: {
+      min: 0.1,
+      max: 0.1
+    },
+    Item_Legendary_Item_Base_Item: {
+      min: 1612259889,
+      max: 1612259889
+    },
+    Season: {
+      min: 0,
+      max: 0
+    },
+    Item_LegendaryItem_Level_Override: {
+      min: 70,
+      max: 70
+    },
+    Durability_Cur: {
+      min: 423,
+      max: 423
+    },
+    Sockets: {
+      min: 2,
+      max: 2
+    }
+  },
+  randomAffixes: [],
+  gems: [{
+    item: [Object],
+    attributes: [Object],
+    attributesRaw: [Object]
+  }, {
+    item: [Object],
+    attributes: [Object],
+    attributesRaw: [Object]
+  }],
+  socketEffects: [],
+  craftedBy: []
+}

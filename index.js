@@ -70,7 +70,8 @@ async.series({
       async.each(Object.keys(character.items),function(key,bCallback){
         options.path = basePaths.item + character.items[key].tooltipParams;
         getRequest(options,function(err,data){
-          character.items[key].attributes = data.attributesRaw;
+          character.items[key].gems = data.gems;
+          character.items[key].attributesRaw = data.attributesRaw;
           bCallback(err);
         });
       },aCallback);
@@ -94,7 +95,10 @@ async.series({
       items = character.items;
       Object.keys(items).forEach(function(itemKey){
         item = items[itemKey];
-        addStats(item.attributes);
+        addStats(item.attributesRaw);
+        item.gems.forEach(function(gem){
+          addStats(gem.attributesRaw);
+        });
       });
       console.log('=====' + character.name + '=====');
       console.log(stats);
