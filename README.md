@@ -11,6 +11,6 @@ PREREQUISITES
 USAGE
 -----
 
-node index.js -b battleTag-battleCode
+`node index.js -b battleTag-battleCode`
 
-eg. node index.js -b oldmanklc-1949
+eg. `node index.js -b oldmanklc-1949`
